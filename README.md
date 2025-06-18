@@ -10,35 +10,36 @@ The aim is **not just to make sensors work**, but to do it in a **power-aware**,
 
 custom-lowpower-sensor-drivers/
 ├── README.md
+├── LICENSE
 ├── docs/
-│ ├── architecture.md
-│ ├── power-optimization.md
-│ └── interface-diagram.png
+│   ├── architecture.md
+│   ├── power-optimization.md
+│   └── interface-diagram.png
 ├── src/
-│ ├── i2c/
-│ │ └── dht12_driver.c
-│ ├── spi/
-│ │ └── mcp3008_driver.c
-│ └── uart/
-│ └── aht10_driver.c
+│   ├── i2c/
+│   │   └── dht12_driver.c
+│   ├── spi/
+│   │   └── mcp3008_driver.c
+│   └── uart/
+│       └── aht10_driver.c
 ├── include/
-│ ├── i2c/
-│ │ └── dht12_driver.h
-│ ├── spi/
-│ │ └── mcp3008_driver.h
-│ ├── uart/
-│ │ └── aht10_driver.h
-│ └── common/
-│ └── utils.h
+│   ├── i2c/
+│   │   └── dht12_driver.h
+│   ├── spi/
+│   │   └── mcp3008_driver.h
+│   ├── uart/
+│   │   └── aht10_driver.h
+│   └── common/
+│       └── utils.h
 ├── boards/
-│ ├── stm32/
-│ │ └── main.c
-│ └── esp32/
-│ └── deep_sleep_driver_test.c
-── tests/
-└── mock_run_logs/
-├── stm32_log.txt
-└── esp32_log.txt
+│   ├── stm32/
+│   │   └── main.c
+│   └── esp32/
+│       └── deep_sleep_driver_test.c
+└── tests/
+    └── mock_run_logs/
+        ├── stm32_log.txt
+        └── esp32_log.txt
 
 ---
 

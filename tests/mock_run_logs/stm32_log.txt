@@ -1,0 +1,21 @@
+[STM32 Test Run]
+Initializing I2C...
+Initializing SPI...
+Initializing UART...
+DHT12 Sensor initialized
+AHT10 UART Sensor initialized
+
+[Loop 1]
+DHT12 Temp: 24.3 C | Humidity: 48.7%
+MCP3008 CH0: 523 (10-bit)
+AHT10 Temp: 24.5 C | Humidity: 49.1%
+
+[Loop 2]
+DHT12 Temp: 24.2 C | Humidity: 48.9%
+MCP3008 CH0: 520 (10-bit)
+AHT10 Temp: 24.6 C | Humidity: 48.8%
+
+[Loop 3]
+DHT12 Temp: 24.3 C | Humidity: 48.6%
+MCP3008 CH0: 519 (10-bit)
+AHT10 Temp: 24.4 C | Humidity: 49.0%

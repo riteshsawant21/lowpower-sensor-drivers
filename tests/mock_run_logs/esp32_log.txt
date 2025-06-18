@@ -1,0 +1,20 @@
+[ESP32 Deep Sleep Wake Cycle]
+Booting...
+Initializing I2C...
+DHT12 Sensor initialized
+
+Wake from Deep Sleep:
+DHT12 Temp: 23.9 C | Humidity: 50.2%
+
+Entering deep sleep for 10s...
+
+[... 10 seconds later ...]
+
+Booting...
+Initializing I2C...
+DHT12 Sensor initialized
+
+Wake from Deep Sleep:
+DHT12 Temp: 24.0 C | Humidity: 49.9%
+
+Entering deep sleep for 10s...
